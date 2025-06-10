@@ -87,4 +87,4 @@ Demonstrate TestNG + Selenium + JDBC integration for QA roles
 
 🔍 Automation & Manual Tester | Building test logic from UI to DB
 
-🌐 LinkedIn
+🌐 www.linkedin.com/in/charishma-velu-578771366
