@@ -43,13 +43,10 @@ Each login scenario checks not only the front-end response but also verifies the
 ---
 
 ## 🧠 Database Query Example
-<pre>
 ```sql
 SELECT password FROM users WHERE username = ?;
-'''
 /*This is used to fetch the stored password for a given username and validate it against the one entered in the test.*/
-'''
-</pre>
+```
 ## 💻 How to Run the Tests
 Clone the repo:
 
