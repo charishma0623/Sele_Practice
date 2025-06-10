@@ -50,7 +50,7 @@ SELECT password FROM users WHERE username = ?;
 /*This is used to fetch the stored password for a given username and validate it against the one entered in the test.*/
 '''
 </pre>
-💻 How to Run the Tests
+## 💻 How to Run the Tests
 Clone the repo:
 
 Copy Edit : git clone https://github.com/charishma0623/Sele_Practice.git
@@ -61,14 +61,30 @@ Add JDBC driver (e.g., mysql-connector-java) in pom.xml
 
 Run the test suite:
 
-Via testng.xml
+Via testng.xml Or directly from Eclipse → Run As → TestNG Suite
 
-Or directly from Eclipse → Run As → TestNG Suite
-
-✅ Assertions Used
+### ✅ Assertions Used
 
 UI Validation: check success/failure messages
 
 DB Validation: Assert.assertEquals(expectedDBValue, actualInput)
 
 Screenshot on failure via TestNG listeners or try-catch blocks
+
+## 🚀 Purpose of This Repo
+
+This mini-framework is designed to:
+
+Practice real-world automation flows
+
+Show ability to handle UI + backend DB checks
+
+Demonstrate TestNG + Selenium + JDBC integration for QA roles
+
+## 🙋‍♀️ Maintainer
+
+👩‍💻 Charishma Velu
+
+🔍 Automation & Manual Tester | Building test logic from UI to DB
+
+🌐 LinkedIn
